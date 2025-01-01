@@ -200,7 +200,10 @@
       - ClothingHeadHatWelding
       - WetFloorSign
       - ClothingHeadHatCone
+      - BoxFolderClipboard # Harmony
       - FreezerElectronics
+      - Flare
+
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - BoxLethalshot
@@ -226,6 +229,7 @@
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
+      - StripperClip  # Harmony change - part of RSC PR
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -721,6 +725,7 @@
       - MagazineShotgun
       - MagazineShotgunEmpty
       - MagazineShotgunSlug
+      - StripperClip  # Harmony change - part of RSC PR
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
@@ -833,6 +838,7 @@
         - MagazineShotgunSlug
         - SpeedLoaderMagnum
         - SpeedLoaderMagnumEmpty
+        - StripperClip  # Harmony change - part of RSC PR
     - type: MaterialStorage
       whitelist:
         tags:
@@ -939,10 +945,14 @@
       - ClothingUniformJumpskirtBartender
       - ClothingHeadHatCapcap
       - ClothingHeadHatCaptain
+      - ClothingHeadHatBeretCaptainHarmony # Harmony
       - ClothingUniformJumpsuitCaptain
       - ClothingUniformJumpskirtCaptain
       - ClothingUniformJumpsuitCapFormal
       - ClothingUniformJumpskirtCapFormalDress
+      - ClothingUniformJumpsuitCaptainTurtleneckHarmony # Harmony
+      - ClothingUniformJumpskirtCaptainTurtleneckHarmony # Harmony
+      - ClothingUniformJumpsuitCaptainHawaiianHarmony # Harmony
       - ClothingUniformJumpsuitCargo
       - ClothingUniformJumpskirtCargo
       - ClothingUniformJumpsuitSalvageSpecialist
@@ -965,6 +975,7 @@
       - ClothingUniformJumpskirtCMOTurtle
       - ClothingUniformJumpsuitDetective
       - ClothingUniformJumpskirtDetective
+      - ClothingUniformJumpsuitDetectiveBlueHarmony # Harmony
       - ClothingUniformJumpsuitEngineering
       - ClothingUniformJumpskirtEngineering
       - ClothingUniformJumpsuitSeniorEngineer
@@ -972,8 +983,13 @@
       - ClothingHeadHatHopcap
       - ClothingUniformJumpsuitHoP
       - ClothingUniformJumpskirtHoP
+      - ClothingUniformJumpsuitTurtleneckHoPHarmony # Harmony
+      - ClothingUniformJumpskirtTurtleneckHoPHarmony #Harmony
+      - ClothingUniformJumpsuitHoPMessKitHarmony #Harmony
+      - ClothingUniformJumpskirtHoPMessKitHarmony #Harmony
       - ClothingHeadHatBeretHoS
       - ClothingHeadHatHoshat
+      - ClothingHeadHatHoSWidebrimHarmony # Harmony
       - ClothingUniformJumpsuitHoS
       - ClothingUniformJumpskirtHoS
       - ClothingUniformJumpsuitHosFormal
@@ -1022,6 +1038,9 @@
       - ClothingHeadHatBeretSecurity
       - ClothingUniformJumpsuitSec
       - ClothingUniformJumpskirtSec
+      - ClothingUniformJumpsuitSecBlueHarmony # Harmony
+      - ClothingHeadHatBeretSecurityBlueHarmony # Harmony
+      - ClothingHeadHatSecSoftBlueHarmony # Harmony
       - ClothingHeadHatBeretBrigmedic
       - ClothingUniformJumpsuitBrigmedic
       - ClothingUniformJumpskirtBrigmedic
@@ -1029,6 +1048,7 @@
       - ClothingHeadHatWarden
       - ClothingUniformJumpsuitWarden
       - ClothingUniformJumpskirtWarden
+      - ClothingUniformJumpsuitWardenBlueHarmony # Harmony
       - ClothingHeadHatParamedicsoft
       # Winter outfits
       - ClothingOuterWinterCap
@@ -1335,6 +1355,7 @@
       - FloorTileItemGratingMaint
       - FloorTileItemTechmaint
       - FloorTileItemSteelMaint
+      - FloorTileItemTechmaintDark # Xeno playtest
       - FloorTileItemWood
       - FloorTileItemWoodLarge
       - FloorTileItemWoodPattern

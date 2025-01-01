@@ -10998,7 +10998,7 @@ entities:
   - uid: 1826
     components:
     - type: Transform
-      pos: 3.4542694,-10.616036
+      pos: 7.6685505,-12.075944
       parent: 104
 - proto: KitchenKnife
   entities:

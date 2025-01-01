@@ -1,0 +1,11 @@
+# Jumpsuit
+- type: loadout
+  id: JumpsuitHoSBlue
+  equipment: 
+    jumpsuit: ClothingUniformJumpsuitHoSBlue
+
+# Head
+- type: loadout
+  id: HoSWidebrimHarmony
+  equipment:
+    head: ClothingHeadHatHoSWidebrimHarmony
