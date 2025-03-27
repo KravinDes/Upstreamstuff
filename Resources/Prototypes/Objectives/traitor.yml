@@ -65,6 +65,8 @@
       - EscapeShuttleCondition
       - StealCondition
   - type: DieCondition
+  - type: ObjectiveLimit
+    limit: 1 # Not everyone gets to run it down.
 
 #- type: entity
 #  parent: [BaseTraitorObjective, BaseLivingObjective]
