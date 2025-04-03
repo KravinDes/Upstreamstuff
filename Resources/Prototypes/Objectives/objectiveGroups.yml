@@ -34,14 +34,17 @@
   id: TraitorObjectiveGroupState
   weights:
     EscapeShuttleObjective: 1
-    DieObjective: 0.15 #Original weight is 0.05
+    #DieObjective: 0.05
+    DieObjective: 0.15 #Original weight is 0.05. HARMONY SPECIFIC CHANGE.
     #HijackShuttleObjective: 0.02
 
 - type: weightedRandom
   id: TraitorObjectiveGroupSocial
   weights:
-    RandomTraitorAliveObjective: 0.75 # Original weight is 1
-    RandomTraitorProgressObjective: 0.5 # Original weight is 1
+    #RandomTraitorAliveObjective: 1
+    RandomTraitorAliveObjective: 0.75 # Original weight is 1. HARMONY SPECIFIC CHANGE.
+    #RandomTraitorProgressObjective: 1
+    RandomTraitorProgressObjective: 0.5 # Original weight is 1. HARMONY SPECFIC CHANGE.
 
 #Thief groups
 - type: weightedRandom

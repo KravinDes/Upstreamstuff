@@ -65,7 +65,7 @@
       - EscapeShuttleCondition
       - StealCondition
   - type: DieCondition
-  - type: ObjectiveLimit # Added objective limit.
+  - type: ObjectiveLimit # Added objective limit. HARMONY SPECIFIC CHANGE
     limit: 1 # Limited the objective to one person per round. Not everyone gets to run it down.
 
 #- type: entity
