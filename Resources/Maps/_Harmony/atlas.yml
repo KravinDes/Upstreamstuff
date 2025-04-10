@@ -4,8 +4,8 @@ meta:
   engineVersion: 248.0.2
   forkId: ""
   forkVersion: ""
-  time: 04/10/2025 02:06:14
-  entityCount: 9700
+  time: 04/10/2025 02:15:06
+  entityCount: 9699
 maps:
 - 1
 grids:
@@ -4775,7 +4775,7 @@ entities:
       pos: -25.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -61444.535
+      secondsUntilStateChange: -61481.49
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -22561,15 +22561,6 @@ entities:
       parent: 2
     - type: Physics
       canCollide: False
-- proto: DefaultStationBeacon
-  entities:
-  - uid: 3321
-    components:
-    - type: Transform
-      pos: 18.5,-20.5
-      parent: 2
-    - type: NavMapBeacon
-      text: evac
 - proto: DefaultStationBeaconAME
   entities:
   - uid: 3322
