@@ -184,10 +184,7 @@
   - type: AntagRandomObjectives
     sets:
     - groups: TraitorObjectiveGroups
-    #Begin Harmony specific change
-    #maxDifficulty: 5
-    maxDifficulty: 7.5
-    # End Harmony specific change
+    maxDifficulty: 7.5 # Harmony. Change: 5 -> 7.5
   - type: AntagSelection
     agentName: traitor-round-end-agent-name
 
