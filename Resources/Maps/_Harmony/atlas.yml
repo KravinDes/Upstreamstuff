@@ -4,8 +4,8 @@ meta:
   engineVersion: 255.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/04/2025 11:00:30
-  entityCount: 9813
+  time: 05/04/2025 11:50:25
+  entityCount: 9816
 maps:
 - 1
 grids:
@@ -4903,7 +4903,7 @@ entities:
       pos: -25.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -105625.51
+      secondsUntilStateChange: -105726.68
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -50446,6 +50446,50 @@ entities:
     - type: DeviceLinkSource
       linkedPorts:
         5852:
+        - - Pressed
+          - Toggle
+  - uid: 9814
+    components:
+    - type: Transform
+      pos: -48.5,-3.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        7447:
+        - - Pressed
+          - Toggle
+        7448:
+        - - Pressed
+          - Toggle
+        7358:
+        - - Pressed
+          - Toggle
+        7395:
+        - - Pressed
+          - Toggle
+        7418:
+        - - Pressed
+          - Toggle
+  - uid: 9815
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -65.5,-2.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        2589:
+        - - Pressed
+          - Toggle
+  - uid: 9816
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -57.5,-5.5
+      parent: 2
+    - type: DeviceLinkSource
+      linkedPorts:
+        2589:
         - - Pressed
           - Toggle
 - proto: SignalSwitchDirectional
