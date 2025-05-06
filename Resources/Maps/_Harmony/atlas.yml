@@ -4,8 +4,8 @@ meta:
   engineVersion: 255.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/06/2025 04:27:10
-  entityCount: 9825
+  time: 05/06/2025 04:53:40
+  entityCount: 9831
 maps:
 - 1
 grids:
@@ -4903,7 +4903,7 @@ entities:
       pos: -25.5,-21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -106606.11
+      secondsUntilStateChange: -106653.63
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -15326,7 +15326,7 @@ entities:
   - uid: 2077
     components:
     - type: Transform
-      pos: -46.5,8.5
+      pos: -47.5,8.5
       parent: 2
   - uid: 2095
     components:
@@ -15611,7 +15611,7 @@ entities:
   - uid: 3854
     components:
     - type: Transform
-      pos: -43.5,1.5
+      pos: -43.5,5.5
       parent: 2
   - uid: 3942
     components:
@@ -15786,7 +15786,7 @@ entities:
   - uid: 6430
     components:
     - type: Transform
-      pos: -43.5,2.5
+      pos: -43.5,4.5
       parent: 2
   - uid: 6810
     components:
@@ -15977,6 +15977,36 @@ entities:
     components:
     - type: Transform
       pos: -29.5,12.5
+      parent: 2
+  - uid: 9826
+    components:
+    - type: Transform
+      pos: -44.5,5.5
+      parent: 2
+  - uid: 9827
+    components:
+    - type: Transform
+      pos: -45.5,5.5
+      parent: 2
+  - uid: 9828
+    components:
+    - type: Transform
+      pos: -46.5,5.5
+      parent: 2
+  - uid: 9829
+    components:
+    - type: Transform
+      pos: -47.5,5.5
+      parent: 2
+  - uid: 9830
+    components:
+    - type: Transform
+      pos: -47.5,6.5
+      parent: 2
+  - uid: 9831
+    components:
+    - type: Transform
+      pos: -47.5,7.5
       parent: 2
 - proto: CableHVStack
   entities:
@@ -51217,6 +51247,11 @@ entities:
       parent: 2
 - proto: SMESAdvanced
   entities:
+  - uid: 7031
+    components:
+    - type: Transform
+      pos: -47.5,9.5
+      parent: 2
   - uid: 8068
     components:
     - type: Transform
@@ -51234,16 +51269,6 @@ entities:
     - type: Transform
       pos: -34.5,10.5
       parent: 2
-  - uid: 7031
-    components:
-    - type: MetaData
-      name: telecomms SMES
-    - type: Transform
-      pos: -47.5,9.5
-      parent: 2
-    - type: BatterySelfRecharger
-      autoRechargeRate: 8000000
-      autoRecharge: True
 - proto: SMESBasicEmpty
   entities:
   - uid: 7034
